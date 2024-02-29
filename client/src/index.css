@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  height: 100vh;
+  background-color: rgb(29,29,31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  text-transform: uppercase;
+  color: #C4C4C5;
+  text-align: center;
+}
+
+#music-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#music-list li {
+font-weight: 500;
+cursor: pointer;
+padding: 3px;
+color: #C4C4C5;
+}
+
+#music-list li:hover {
+  color: #1866CC ;
+}
+
+
+.music-list {
+  background: rgb(20,20,20);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  padding: 12px 0;
+  flex-wrap: wrap;
+}
+
+#book-details {
+  display: flex;
+  align-items: center;
+  color: #C4C4C5;
+  text-align: center;
+}
+
+.fav-album-list h2 {
+  font-size: 2rem;
+}
+.fav-album-list .genre {
+  font-size: 15px;
+}
+.fav-album-list .artist-name {
+  font-size: 20px;
+}
+.fav-album-list .fav-txt {
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.other-albums {
+  color: rgb(97,97,99);
+}
+
+.music-details {
+  background: black;
+  color: #C4C4C5;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.music-details span {
+  
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+
+}
+
+.details-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.details-form .field input {
+  background: rgba(97, 97, 99, 0.363);
+  padding: 12px 0;
+  border: none;
+  outline: none;
+  color: #C4C4C5;
+  border-radius: 5px;
+  margin-left: 12px;
+
+}
+
+.details-form .field select {
+  background: rgba(97, 97, 99, 0.363);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 12px;
+  padding: 12px 0;
+  cursor: pointer;
+}
+.details-form .field option {
+  background: rgb(20,20,20);
+  cursor: pointer;
+  
+}
+
+.details-form button {
+  background: rgb(97,97,99);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  padding: 10px;
+
+}
+
+.details-form button:hover {
+  color: #1866CC;
+}
+
